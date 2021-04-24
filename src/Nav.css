@@ -1,0 +1,31 @@
+.nav{
+    background-color: #090809;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav__logo {
+    width: 100px;
+    margin: 0 20px;
+    margin-top: 18px;
+    object-fit: contain;
+}
+
+.nav__search{
+    display: flex;
+    flex: 0.9;
+}
+.nav__searchInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+.nav__searchIcon{
+    padding: 5px;
+    height: 22px im !important;
+    background-color: #f4998d;
+}
