@@ -1,0 +1,25 @@
+.row{
+    color: white;
+    object-fit: contain;
+    height: 448px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.row > h2{
+    width: 50%;
+    font-size: 3rem;
+    font-weight: 800;
+    color: white; 
+}
+
+.row > p {
+    line-height: 1.3;
+    font-size: 1rem;
+    color: white;
+    width: 60%;
+}
+a{
+    text-decoration: none;
+}
